@@ -10,9 +10,8 @@
 | 目录/文件 | 说明 |
 | --- | --- |
 | **experiment/** | **核心算法与数据处理目录**，包含爬虫、模型训练、推理及图谱构建脚本 |
-| **KnowledgegraphProject/** | **后端服务 (Main)**，基于 Spring Boot，提供 API 接口与数据库交互 |
+| **demo/** | **后端服务 (Main)**，基于 Spring Boot，提供 API 接口与数据库交互 |
 | **knowledgegrapg-vue/** | **前端项目**，基于 Vue 3 + Vite + ECharts，提供知识图谱可视化交互界面 |
-| **demo/** | 后端服务的 Demo/原型项目 |
 | **neo4j导入数据/** | 独立的 Neo4j 数据导入脚本 (包含 Excel 测试数据) |
 | **画图/** | 实验结果可视化脚本 (`plot_f1.py`) 及生成的图表 |
 | **experiment/requirements.txt** | Python 项目依赖清单 |
