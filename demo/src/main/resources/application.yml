@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  neo4j:
+    uri: neo4j://localhost:7687
+    username: neo4j
+    password: 12345678
+    database: neo4j
+logging:
+  level:
+    org.springframework.data.neo4j: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+ai:
+  provider: doubao
+  doubao:  # 保留键名以兼容已有代码
+    api-key: dd720487-5f32-4769-8364-c5e51cecbf0a
+    api-url: https://ark.cn-beijing.volces.com/api/v3/chat/completions

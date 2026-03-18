@@ -1,0 +1,18 @@
+Neo4j Export Report
+Nodes: 3725
+Relations: 11830
+
+Node label counts:
+  治疗: 1222
+  疾病: 302
+  病因: 678
+  症状: 909
+  科室: 87
+  诊断方法: 527
+
+Relation type counts:
+  BELONGS_TO_DEPARTMENT: 628
+  HAS_CAUSE: 2442
+  HAS_SYMPTOM: 3922
+  NEEDS_DIAGNOSIS: 1616
+  USES_TREATMENT: 3222
